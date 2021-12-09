@@ -466,9 +466,9 @@ margin-left: 30px;
     width: 320px;
   }
   .header{
-    width: 320px;
+    width: 300px;
     &-container{
-      width: 320px;
+      width: 300px;
     }
     &-btn{
       position: absolute;
@@ -484,18 +484,22 @@ margin-left: 30px;
   }
   .hero{
     &__content{
-      width: 320px;
+      width: 300px;
       &-title{
         font-size: 31px;
-        width: 320px;
+        width: 300px;
       }
       &-text{
         font-size: 15px;
       }
+      &-btn-1{
+        margin-left: 25px;
+      }
     }
     &-img1{
       margin-left: 0;
-      width: 320px;
+      width: 270px;
+      height: 333px;
     }
   }
   .logoipsum{
@@ -511,51 +515,69 @@ margin-left: 30px;
   }
   .overview{
     &-img{
-      width: 320px;
+      width: 270px;
     }
     &-container{
       margin-left: 5px;
     }
     &__content{
       &-title{
-        width: 320px ;
+        width: 300px ;
       }
     }
   }
   .technology{
-    margin-left: 15px;
+    margin-left:  20px;
     &-img{
-      width: 280px;
+      width: 250px;
     }
     &-container{
       margin-left: 0;
+      width: 250px;
     }
     &__content{
+      width: 250px;
       &-title{
-        width: 320px;
+        width: 290px;
       }
     }
   }
   .futures{
     width: 320px;
     &__content{
-      margin-left: 43px;
+      margin-left: 47px;
     }
   }
   .plan{
     margin-top: 10px;
-    margin-left: 12px;
+    margin-left: 0;
     &__content{
       &-title{
         font-size: 32px;
       }
     }
   }
+  .sub{
+    width: 320px;
+  }
   .sub-container {
     margin-left: 70px;
   }
+  .plan{
+    &__content{
+      &-title{
+        width: 260px;
+      }
+    }
+  }
   .data{
     margin-left: 4px;
+  }
+  .mm{
+    width: 270px;
+  }
+  .ee{
+    width: 280px;
   }
 }
 

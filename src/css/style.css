@@ -1084,10 +1084,10 @@ a {
   }
 
   .header {
-    width: 320px;
+    width: 300px;
   }
   .header-container {
-    width: 320px;
+    width: 300px;
   }
   .header-btn {
     position: absolute;
@@ -1102,18 +1102,22 @@ a {
   }
 
   .hero__content {
-    width: 320px;
+    width: 300px;
   }
   .hero__content-title {
     font-size: 31px;
-    width: 320px;
+    width: 300px;
   }
   .hero__content-text {
     font-size: 15px;
   }
+  .hero__content-btn-1 {
+    margin-left: 25px;
+  }
   .hero-img1 {
     margin-left: 0;
-    width: 320px;
+    width: 270px;
+    height: 333px;
   }
 
   .logoipsum-container {
@@ -1127,48 +1131,68 @@ a {
   }
 
   .overview-img {
-    width: 320px;
+    width: 270px;
   }
   .overview-container {
     margin-left: 5px;
   }
   .overview__content-title {
-    width: 320px;
+    width: 300px;
   }
 
   .technology {
-    margin-left: 15px;
+    margin-left: 20px;
   }
   .technology-img {
-    width: 280px;
+    width: 250px;
   }
   .technology-container {
     margin-left: 0;
+    width: 250px;
+  }
+  .technology__content {
+    width: 250px;
   }
   .technology__content-title {
-    width: 320px;
+    width: 290px;
   }
 
   .futures {
     width: 320px;
   }
   .futures__content {
-    margin-left: 43px;
+    margin-left: 47px;
   }
 
   .plan {
     margin-top: 10px;
-    margin-left: 12px;
+    margin-left: 0;
   }
   .plan__content-title {
     font-size: 32px;
+  }
+
+  .sub {
+    width: 320px;
   }
 
   .sub-container {
     margin-left: 70px;
   }
 
+  .plan__content-title {
+    width: 260px;
+  }
+
   .data {
     margin-left: 4px;
+  }
+
+  .mm {
+    width: 270px;
+  }
+
+  .ee {
+    width: 280px;
   }
 }
