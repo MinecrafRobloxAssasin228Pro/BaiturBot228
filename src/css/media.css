@@ -1,0 +1,32 @@
+@media screen and (max-width: 1200px) {
+  .container {
+    max-width: 1040px;
+  }
+}
+@media screen and (max-width: 1040px) {
+  .container {
+    max-width: 900px;
+  }
+}
+@media screen and (max-width: 1040px) {
+  .container {
+    max-width: 900px;
+  }
+
+  .sub__content-btn {
+    width: 220px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .container {
+    max-width: 720px;
+  }
+
+  .sub__content-btn {
+    max-width: 200px;
+  }
+
+  .data {
+    margin-left: 10px;
+  }
+}

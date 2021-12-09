@@ -1,0 +1,569 @@
+@media screen and (max-width: 1200px) {
+  .container{
+    max-width: 1040px;
+  }
+}
+
+@media screen and (max-width: 1040px){
+  .container{
+    max-width: 900px;
+  }
+  .sub__content-btn{
+    width: 220px;
+  }
+  .data{
+    margin-left: 90px;
+  }
+}
+
+@media screen  and (max-width: 900px) {
+  .container{
+    max-width: 741px;
+  }
+  .data{
+    margin-left: 15px;
+  }
+  .hero{
+    &__content{
+      row-gap: 28px;
+      &-title{
+        font-size: 48px;
+        line-height: 59px;
+        width: 220px;
+      }
+      &-text{
+        font-size: 18px;
+        width: 220px;
+      }
+    }
+    &-img1{
+      width: 350px;
+    }
+  }
+  .logoipsum{
+&-container{
+  width: 741px;
+}
+  }
+  .overview{
+    &-container{
+      width: 300px;
+    }
+  &-img{
+    width: 350px;
+  }
+  &__content{
+    &-title{
+      font-size: 48px;
+      line-height: 59px;
+      width: 220px;
+    }
+    &-text{
+      font-size: 18px;
+      width: 220px;
+    }
+  }
+  }
+  .technology{
+    &-container{
+      width: 300px;
+    }
+    &-img{
+      padding-left:0 ;
+    }
+    &-img1{
+      width: 350px;
+    }
+    &__content{
+      &-title{
+        font-size: 48px;
+        line-height: 59px;
+        width: 220px;
+      }
+      &-text{
+        font-size: 18px;
+        width: 220px;
+      }
+    }
+  }
+  .futures{
+    &__content{
+      width: 220px;
+      &-text{
+        font-size: 14px;
+        width: 240px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 740px){
+  html{
+    transform: translate(-0px);
+  }
+
+  .container{
+    max-width: 620px;
+  }
+  .row{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .col-d{
+    width: 22%;
+  }
+
+  .header{
+
+    margin-left: 20px;
+    width: 620px;
+    &__nav{
+      width: 195px;
+    }
+    &-container{
+      width: 595px;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+  .hero{
+    height: 530px;
+    &__content{
+      height: 485px;
+      row-gap: 15px;
+      &-title{
+        font-size: 33px;
+        line-height: 45px;
+        padding:0 0 0 ;
+        width: 272px;
+      }
+      &-text {
+        width: 202px;
+        font-size: 13px;
+        line-height: 20px;
+      }
+      &-btn{
+        font-size: 10px;
+        line-height: 5px;
+        margin-top: 20px;
+        width: 165px;
+        height: 45px;
+      }
+      &-link{
+        width: 40px;
+        height: 40px;
+        margin-top: 20px;
+        margin-left: 15px;
+      }
+      &-btn-1{
+        width: 225px;
+      }
+    }
+    &-img{
+      display: flex;
+      justify-content: center;
+      height: 525px;
+    }
+    &-img1{
+      display: flex;
+      margin-left: 0;
+      width: 294px;
+      height: 346px;
+      left: 250px;
+      top: 195px;
+    }
+  }
+  .logoipsum{
+    &-container{
+      width: 620px;
+    }
+    &__nav{
+      width: 620px;
+      margin-left: 20px;
+      &-menu{
+        width: 95px;
+      }
+    }
+    transform: translate(-20px);
+  }
+  .overview {
+    &-container{
+      height: 323px;
+      row-gap: 6px;
+    }
+    &__content{
+      &-title{
+        font-size: 33px;
+        line-height: 45px;
+        padding:0 0 0 ;
+        width: 332px;
+
+      }
+      &-text{
+        width: 260px;
+        font-size: 14px;
+        line-height: 20px;
+      }
+      &-link{
+        font-size: 13px;
+      }
+    }
+    &-img{
+      display: flex;
+      justify-content: center;
+      height: 525px;
+    }
+    &-img1{
+      display: flex;
+      width: 268px;
+      height: 384px;
+      left: 250px;
+      top: 195px;
+      margin-left: -50px;
+    }
+  }
+  .futures{
+    transform: translate(-28px);
+    &__content{
+      width: 220px;
+      &-text{
+        width: 240px;
+      }
+    }
+  }
+  .technology {
+    margin-top: 0;
+    margin-left: 25px;
+    &__content{
+      row-gap: 20px;
+      height: 270px;
+      &-title{
+        font-size: 33px;
+        line-height: 45px;
+        padding:0 0 0 ;
+        width: 332px;
+        margin-left: -30px;
+      }
+      &-text{
+        width: 260px;
+        font-size: 14px;
+        line-height: 20px;
+        margin-left: -30px;
+      }
+      &-link{
+        font-size: 13px;
+        margin-left: -30px;
+      }
+    }
+    &-img{
+      display: flex;
+      justify-content: center;
+      height: 525px;
+    }
+    &-img1{
+      display: flex;
+      width: 268px;
+      height: 384px;
+      left: 250px;
+      top: 195px;
+      margin-left: -50px;
+    }
+  }
+  .futures{
+    width: 500px;
+    margin-top: 20px;
+    transform: translate(-28px);
+    &__content{
+      width: 265px;
+      &-img {
+        width: 140px;
+      }
+      &-text{
+        font-size: 13px;
+        width: 200px;
+      }
+    }
+  }
+  .plan{
+    &__content{
+      &-title{
+        font-size: 35px;
+        line-height: 59px;
+        width: 271px;
+        margin-left: 10px;
+      }
+    }
+  }
+  .sub{
+    &-container{
+      width: 120px;
+
+    }
+    &__content{
+      width: 170px;
+      height: 280px;
+      row-gap: 0;
+      &-title{
+        font-size: 30px;
+        height: 50px;
+      }
+      &-text{
+        height: 38px;
+        font-size: 14px;
+      }
+      &-btn{
+        width: 131px;
+        height: 41px;
+      }
+    }
+  }
+  .month{
+    font-size: 30px;
+  }
+  .data {
+    margin-left: 25px;
+    width: 245px;
+  }
+
+  .sub__content-btn{
+    max-width: 170px;
+  }
+  .row{
+    max-height: 1140px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .container {
+    max-width: 425px;
+  }
+  .col-6 {
+    width: 100%;
+  }
+  .col-4 {
+    width: 100%;
+  }
+  .header{
+    margin-left: 0;
+    width: 425px;
+    &-container{
+      width: 390px;
+      position: relative;
+      margin-left: 20px;
+    }
+    &__nav{
+      width: 340px;
+      left: 30px;
+      top: 45px;
+      position: absolute;
+    }
+  }
+  .hero{
+&__content{
+  width: 400px;
+  &-title {
+    font-size: 35px;
+    line-height: 40px;
+    padding: 0 0 0;
+    width: 340px;
+  }
+  &-text{
+    width: 282px;
+    font-size: 17px
+  }
+}
+    &-img{
+      height: 315px;
+    }
+    &-img1{
+      width: 351px;
+      height: 361px;
+      margin-left: 40px;
+      margin-top: -45px;
+    }
+  }
+  .logoipsum{
+    &-container{
+      width: 425px;
+    }
+    &__nav{
+      margin-top: 325px;
+      width: 425px;
+      &-menu{
+        width: 75px;
+      }
+    }
+  }
+  .overview{
+    &-container{
+      margin-left: 54px;
+    }
+    &__content{
+      &-title {
+        font-size: 35px;
+        line-height: 40px;
+        padding: 0 0 0;
+        width: 340px;
+      }
+      &-text{
+        width: 282px;
+        font-size: 17px
+      }
+    }
+    &-img{
+      height: 360px;
+    }
+  }
+  .technology{
+    &-container{
+      height: 170px;
+      margin-left: 37px;
+    }
+    &__content{
+      row-gap: 12px;
+      &-title {
+        font-size: 35px;
+        line-height: 40px;
+        padding: 0 0 0;
+        width: 340px;
+      }
+      &-text{
+        width: 282px;
+        font-size: 17px
+      }
+    }
+    &-img{
+      height: 450px;
+    }
+  }
+.futures{
+  width: 425px;
+  //margin-left: 60px;
+  &-container{
+    width: 250px;
+  }
+&__content{
+  margin-left: 95px;
+}
+}
+  .plan{
+margin-left: 30px;
+  }
+.sub-container{
+  margin-left: 120px;
+}
+  .col-d{
+    width: 250px;
+  }
+  .gg{
+    row-gap: 20px;
+  }
+}
+
+@media  screen and (max-width: 425px) {
+  .container{
+    width: 320px;
+  }
+  .header{
+    width: 320px;
+    &-container{
+      width: 320px;
+    }
+    &-btn{
+      position: absolute;
+      top: 100px;
+      left: 55px;
+    }
+    &__nav{
+      width: 220px;
+    }
+    &-img{
+      margin-left: 28px;
+    }
+  }
+  .hero{
+    &__content{
+      width: 320px;
+      &-title{
+        font-size: 31px;
+        width: 320px;
+      }
+      &-text{
+        font-size: 15px;
+      }
+    }
+    &-img1{
+      margin-left: 0;
+      width: 320px;
+    }
+  }
+  .logoipsum{
+    &-container{
+      width: 320px;
+    }
+    &__nav{
+      width: 320px;
+      &-menu{
+        width: 55px;
+      }
+    }
+  }
+  .overview{
+    &-img{
+      width: 320px;
+    }
+    &-container{
+      margin-left: 5px;
+    }
+    &__content{
+      &-title{
+        width: 320px ;
+      }
+    }
+  }
+  .technology{
+    margin-left: 15px;
+    &-img{
+      width: 280px;
+    }
+    &-container{
+      margin-left: 0;
+    }
+    &__content{
+      &-title{
+        width: 320px;
+      }
+    }
+  }
+  .futures{
+    width: 320px;
+    &__content{
+      margin-left: 43px;
+    }
+  }
+  .plan{
+    margin-top: 10px;
+    margin-left: 12px;
+    &__content{
+      &-title{
+        font-size: 32px;
+      }
+    }
+  }
+  .sub-container {
+    margin-left: 70px;
+  }
+  .data{
+    margin-left: 4px;
+  }
+}
+
+
+
+
+
+
+
+
+
